@@ -402,3 +402,115 @@ body {
   border-radius: 10vh;
   background: linear-gradient(360deg, #0c0f17, #090e1d 20%);
 }
+
+.side_plane_text {
+  margin: 5vh;
+  color: white;
+}
+
+.cards_details {
+  width: 21vh;
+  height: 27.5vh;
+  list-style: none;
+  margin-left: 13vh;
+  display: inline-block;
+  border-radius: 3vh;
+  white-space: nowrap;
+  box-shadow: 10px 10px 10px rgba(0, 12, 116, 0.37);
+  background-image: linear-gradient(to right, #0f1424, #1c319c);
+  /* background: linear-gradient(160deg, #0f1424, #1c319c 80%); */
+}
+
+.cards_details:hover {
+  background: linear-gradient(10deg, #091129, #1c319c 80%);
+}
+
+.fa-amazon-pay {
+  margin-top: 3vh;
+  margin-left: 2vh;
+  color: white;
+}
+
+.card_text {
+  top: 0;
+  margin-top: 12.5vh;
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.883);
+}
+
+.card_expire {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.883);
+  margin-left: 15px;
+  margin-top: 0.5vh;
+}
+
+.amount_left {
+  color: whitesmoke;
+  margin-top: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4.5vh;
+  margin-left: 13vh;
+}
+
+.recent_activity {
+  margin-top: 3vh;
+  margin-left: 4vh;
+  object-fit: cover;
+  color: whitesmoke;
+}
+
+.spotify {
+  width: 38vh;
+  object-fit: cover;
+  height: 8vh;
+  margin-left: 3vh;
+}
+
+.fa-spotify {
+  color: rgb(51, 223, 51);
+  margin: 2vh;
+}
+
+.spotify_name {
+  position: absolute;
+  color: rgb(231, 230, 230);
+  top: 0;
+  margin-left: 7.5vh;
+  margin-top: 58vh;
+}
+
+.spotify_debit {
+  position: absolute;
+  color: rgb(231, 230, 230);
+  top: 0;
+  margin-left: 34vh;
+  margin-top: 58vh;
+}
+
+.dropbox {
+  width: 38vh;
+  object-fit: cover;
+  height: 8vh;
+  color: rgb(52, 105, 250);
+  margin-left: 5vh;
+}
+
+.dropbox_name {
+  position: absolute;
+  color: rgb(231, 230, 230);
+  top: 0;
+  margin-left: 5.5vh;
+  margin-top: 64vh;
+}
+
+.dropbox_debit {
+  position: absolute;
+  color: rgb(231, 230, 230);
+  top: 0;
+  margin-left: 32vh;
+  margin-top: 64vh;
+}
