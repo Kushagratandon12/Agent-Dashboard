@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.header {
+  height: 100vh;
+}
+
+/* top colum :start */
+
+.top_col {
+  position: absolute;
+  background: linear-gradient(100deg, #010138, #000000 50%);
+  width: 100%;
+  height: 8vh;
+  box-shadow: 5px 5px rgba(18, 19, 95, 0.87);
+}
+
+.app_name {
+  top: 0;
+  color: whitesmoke;
+  margin-top: 2vh;
+  margin-left: 8.5vh;
+  position: absolute;
+}
+.fa-battle-net {
+  margin-top: 3vh;
+  margin-left: 3vh;
+  size: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.fa-battle-net:hover {
+  transform: scale(1.3);
+}
+
+.fa-bell {
+  position: absolute;
+  size: 10px;
+  top: 0;
+  margin-top: 3.5vh;
+  margin-left: 210vh;
+  color: white;
+}
+.fa-bell:hover {
+  color: rgba(255, 72, 0, 0.774);
+}
+/* top colum :end */
+
+/* Side Column Starts */
+.fas {
+  cursor: pointer;
+}
+
+.fab {
+  cursor: pointer;
+}
+
+.side_col {
+  margin-top: 8vh;
+  width: 10vh;
+  position: absolute;
+  background: linear-gradient(140deg, #010138, #000000 40%);
+  /* background: #000324; */
+  height: 100vh;
+  box-shadow: 5px 5px rgba(18, 19, 95, 0.87);
+}
+/* #cecccc2f */
+
+.fa-atlassian {
+  margin-top: 5vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-shekel-sign {
+  margin-top: 7vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-user-astronaut {
+  margin-top: 7vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-chart-area {
+  margin-top: 7vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-tools {
+  margin-top: 7vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-sign-out-alt {
+  margin-top: 7vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+.fa-cogs {
+  margin-top: 29vh;
+  margin-left: 3vh;
+  size: 10px;
+  background-image: center;
+  color: white;
+}
+
+/* Side Column Ends */
+.main_page {
+  width: 100%;
+  height: 100%;
+  margin-top: 8vh;
+  margin-left: 10vh;
+  position: absolute;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  background: linear-gradient(160deg, #01011d, #000000 50%);
+  box-shadow: 9px 9px rgba(134, 133, 133, 0.267);
+}
+
+.head_text {
+  margin: 40px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.883);
+}
+
+.statistics {
+  width: 60vh;
+  height: 100vh;
+}
+
+.dot {
+  height: 25vh;
+  width: 25vh;
+  margin-left: 7.5vh;
+  margin-top: 12vh;
+  text-align: center;
+  border: 13px solid rgb(0, 0, 0);
+  background-color: rgb(0, 11, 73);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_text {
+  color: white;
+  margin-top: 9vh;
+}
+
+.dot_text2 {
+  width: 40px;
+  height: 24px;
+  margin-top: 10px;
+  margin-left: 10vh;
+  text-justify: auto;
+  color: rgb(7, 199, 7);
+}
+
+.income {
+  width: 23vh;
+  height: 12vh;
+  margin-left: 40px;
+  margin-top: 65px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #0c0f17;
+}
+
+.income:hover {
+  box-shadow: 3px 15px rgb(3, 0, 14);
+  transform: scale(1.1);
+}
+
+.income_text {
+  width: 10vh;
+  font-size: 15px;
+  margin-left: 10vh;
+  margin-top: 1.3vh;
+  color: rgba(255, 255, 255, 0.883);
+}
+
+.income_cost {
+  margin-left: 8vh;
+  margin-top: 1.3vh;
+}
+
+.investment {
+  width: 50vh;
+  height: 100%;
+  top: 0;
+  margin-left: 82vh;
+  margin-top: 38px;
+  position: absolute;
+}
+
+.invest_text {
+  color: rgba(255, 255, 255, 0.883);
+}
+
+.invest_profit {
+  width: 20vh;
+  height: 27vh;
+  margin-top: 3vh;
+  margin-left: 25vh;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  background: linear-gradient(360deg, #0e3a00, #000020 50%);
+  /* background-color: #161616; */
+}
+
+.invest_profit:hover {
+  box-shadow: 2px 2px #104200;
+  background: linear-gradient(360deg, #186800, #000020 80%);
+  transform: scale(1.1);
+}
+
+.invest_text1 {
+  font-size: 12px;
+  margin-top: 2vh;
+  color: whitesmoke;
+}
+
+.fa-location-arrow {
+  margin-top: 15vh;
+  color: rgb(2, 173, 2);
+} /* Material Icone For Column CSS Starts  */
+
+.invest_text2 {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.invest_loss {
+  width: 20vh;
+  height: 27vh;
+  margin-top: 3vh;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  border-radius: 20px;
+  background: linear-gradient(360deg, #3a0000, #00002c 50%);
+  /* background-color: #161616; */
+}
+
+.invest_loss:hover {
+  box-shadow: 2px 2px #350202f1;
+  background: linear-gradient(360deg, #800000, #00002c 80%);
+  transform: scale(1.1);
+}
+
+.fa-2 {
+  margin-top: 15vh;
+  color: rgb(173, 2, 2);
+}
+
+.send_money {
+  width: 45vh;
+  height: 20vh;
+  margin-top: 32vh;
+}
+
+.send_money_text1 {
+  color: whitesmoke;
+}
+
+.circular--square {
+  height: 7vh;
+  width: 7vh;
+  margin-top: 15px;
+  margin-right: 14px;
+  border-radius: 50%;
+}
+
+.fa-plus-circle {
+  color: rgb(50, 75, 158);
+}
+
+.users_card_div {
+  width: 42vh;
+  height: 9.5vh;
+  top: 0;
+  border-radius: 20px;
+  margin-top: 50vh;
+  background-color: #0c0f17;
+  position: absolute;
+}
+
+.users_card_div:hover {
+  box-shadow: 2px 2px rgb(0, 69, 116);
+}
+
+.fa-cc-visa {
+  margin: 20px;
+  color: white;
+}
+
+.visa_text {
+  font-size: 22px;
+  top: 0;
+  margin-top: 30px;
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(255, 255, 255, 0.883);
+  margin-left: 90px;
+}
+
+.transfer_money {
+  width: 42vh;
+  height: 13vh;
+  margin-top: 5.5vh;
+  /* text-align: center;
+  display: inline-block; */
+  border-radius: 20px;
+  background-color: #0c0f17;
+}
+
+.transfer_money:hover {
+  box-shadow: 2px 2px rgb(0, 69, 116);
+}
+
+.transfer_money_text {
+  padding: 20px;
+}
+
+.transfer_money_input {
+  margin-left: 20px;
+  width: 20vh;
+  font-size: 30px;
+  background-color: #0c0f17;
+  border: #0c0f17;
+}
+
+.transfer_money_input::placeholder {
+  color: whitesmoke;
+}
+
+.send_money_block {
+  width: 42vh;
+  height: 9vh;
+  margin-top: 1.5vh;
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #01278d;
+}
+
+.send_money_block:hover {
+  box-shadow: 2px 2px rgb(116, 0, 0);
+}
+
+.send_money_text {
+  color: white;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+/* MAIN PAGE ENDS HERE */
+
+.side_plane {
+  width: 50vh;
+  height: 80vh;
+  top: 0;
+  position: absolute;
+  margin-left: 135vh;
+  margin-top: 5vh;
+  border-radius: 10vh;
+  background: linear-gradient(360deg, #0c0f17, #090e1d 20%);
+}
