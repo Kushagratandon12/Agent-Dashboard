@@ -3,6 +3,12 @@
   <head>
     <title>Client Dashboard</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+        <!-- Intro-js Css File -->
+        <link href="https://unpkg.com/intro.js/minified/introjs.min.css" rel="stylesheet"> 
+        <!-- Intro-js Css Theme File -->
+        <link href="https://unpkg.com/intro.js/themes/introjs-modern.css" 
+        rel="stylesheet">
+         <!--Intro-js-end  -->
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -35,12 +41,12 @@
     <div class="row">
       <h3 class="row-content">Client View</h3>
       <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+      <i class="fa fa-user-circle fa-lg" aria-hidden="true" style="cursor: pointer;"></i>
     </div>
     <!-- ======= TOP Bar Ends  ======= -->
     <div class="sep-top"></div>
     <!-- Clinet Information Details - BOX -->
-    <div class="info-box">
+    <div class="info-box" data-title="UserInfo" data-intro="This is User Information Page">
       <div class="content">
         <img class="content-img" src="assets/img/Ellipse 4.svg" width="95px" />
 
@@ -75,7 +81,7 @@
 
         <i class="fa fa-certificate fa-2x" aria-hidden="true"></i>
 
-        <div class="client-score">
+        <div class="client-score" data-title="Client Score" data-intro="This is Your Account Score">
           <h3>Account Level</h3>
         </div>
 
@@ -91,7 +97,7 @@
           <h3>Recent Activity</h3>
         </div>
 
-        <div class="client-recent2">
+        <div class="client-recent2" data-title="Account Activity" data-intro="This is Your Account Recent Activity">
           <h3>
             Today <br />
             12:23 AM
@@ -104,7 +110,7 @@
     <div class="sep"></div>
 
     <!-- LSCG Product Descriptions  -->
-    <div class="product-des">
+    <div class="product-des" data-title="News Feed" data-intro="This is News Feed">
       <h3>Client Details : LSCG Feed</h3>
     </div>
 
@@ -142,6 +148,12 @@
     </div>
 
     <!-- LSCG Product Descriptions Ends -->
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js" crossorigin="anonymous"></script>
+    <script>
+      introJs().setOptions({
+        showProgress: true,
+      }).start()
+    </script>
   </body>
   <script src="https://use.fontawesome.com/9107f33dd4.js"></script>
 </html>

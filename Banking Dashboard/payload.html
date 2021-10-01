@@ -3,6 +3,12 @@
   <head>
     <title>Client Dashboard</title>
     <link rel="stylesheet" href="./css/payload.css" />
+    <!-- Intro-js Css File -->
+    <link href="https://unpkg.com/intro.js/minified/introjs.min.css" rel="stylesheet"> 
+    <!-- Intro-js Css Theme File -->
+    <link href="https://unpkg.com/intro.js/themes/introjs-modern.css" 
+    rel="stylesheet">
+     <!--Intro-js-end  -->
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -17,6 +23,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
   </head>
   <body>
     <div class="top_col">
@@ -24,7 +31,7 @@
       <div class="fas-logo"><i class="fab fa-battle-net fa-lg"></i></div>
       <div class="fas-bell"><i class="fas fa-bell fa-lg"></i></div>
     </div>
-    <div class="side_col">
+    <div class="side_col" data-title="SideBar" data-intro="This Is Your SideBar">
       <div class="fas-home"><i class="fab fa-atlassian fa-lg"></i></div>
       <div class="fas-dollar"><i class="fas fa-shekel-sign fa-lg"></i></div>
       <div class="fas-home"><i class="fas fa-user-astronaut fa-lg"></i></div>
@@ -34,7 +41,7 @@
       <div class="fas-settings"><i class="fas fa-cogs fa-lg"></i></div>
     </div>
 
-    <div class="main_page">
+    <div class="main_page" data-title="MainBar" data-intro="This Is Your MainBar">
       <div class="income_page">
         <h2 class="head_text">Income & Expenses</h2>
         <div class="statistics">
@@ -53,7 +60,7 @@
         </div>
       </div>
       <!-- INCOME PAGE SECTION ENDS -->
-      <div class="investment">
+      <div class="investment" data-title="Investment" data-intro="This Is Where Your Payment Displayed">
         <h2 class="invest_text">Investment</h2>
         <div class="invest_profit">
           <h3 class="invest_text1">ETH/UTD</h3>
@@ -95,7 +102,7 @@
           <h2 class="send_money_text">Send Money</h2>
         </div>
       </div>
-      <div class="side_plane">
+      <div class="side_plane" data-title="Your_Payments" data-intro="Your Debit Card">
         <h2 class="side_plane_text">My Cards</h2>
         <div class="cards_details">
           <i class="fab fa-amazon-pay fa-2x"></i>
@@ -116,9 +123,18 @@
         </div>
       </div>
     </div>
-  </body>
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js" crossorigin="anonymous"></script>
+    <script>
+      introJs().setOptions({
+        showProgress: true,
+      }).start()
+    </script>
+    </body>
   <script
     src="https://kit.fontawesome.com/172d026e6c.js"
     crossorigin="anonymous"
   ></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js" integrity="sha512-Q5ZL29wmQV0WWl3+QGBzOFSOwa4e8lOP/o2mYGg13sJR7u5RvnY4yq83W5+ssZ/VmzSBRVX8uGhDIpVSrLBQog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
 </html>
